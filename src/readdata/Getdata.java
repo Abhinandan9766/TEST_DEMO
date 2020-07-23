@@ -29,6 +29,7 @@ public class Getdata {
 		
 		FileOutputStream fout=new FileOutputStream(src);// to write in excel
 		wb.write(fout);// to write in excel
+		System.out.println("***" );// to read from excel
 	
         wb.close();
 	}
